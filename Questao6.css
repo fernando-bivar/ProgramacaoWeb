@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background: #000000;
+}
+#cont{
+    color: #ffffff;
+    font-size: 400%;
+    font-family: Arial;
+}
+#label1{
+    color: #ff0000;
+    font-size: 500%;
+    font-family: Verdana;
+}

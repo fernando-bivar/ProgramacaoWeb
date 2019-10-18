@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUESTAO 4</title>
+	<script src="Questao4.js"></script>
+</head>
+<body>
+	<h1>CADASTRO</h1>
+	<form>
+		Nome:<input type="text" id="nome" onblur="ValidarNome();"> <br>
+		<p id="errorNome"></p> <br>
+		Latitude:<input type="text" id="lati" onblur="ValidarLatitude();"> <br>
+		<p id="errorLati"></p> <br>
+		Longitude:<input type="text" id="longi" onblur="ValidarLongitude();"> <br>
+		<p id="errorLongi"></p> <br>
+		Descricao:<input type="text" id="desc" onblur="ValidarDescricao();"> <br>
+		<p id="errorDesc"></p> <br>
+	</form>
+	<button type="submit" onclick="ValidarTudo();">SALVAR</button> <br>
+	<p id="mensagem"></p>
+</body>
+</html>
